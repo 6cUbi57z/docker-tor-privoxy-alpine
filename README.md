@@ -5,7 +5,7 @@ Smallest docker image with [Tor](https://www.torproject.org/) and [Privoxy](http
 Versions are those available in the Alpine Linux package repositories at the time of build.
 
 ```sh
-docker run -d -p 8118:8118 -p 9050:9050 ghcr.io/6cUbi57z/tor-privoxy
+docker run -d -p 8118:8118 -p 9050:9050 ghcr.io/6cubi57z/tor-privoxy
 curl -s --no-buffer --proxy http://localhost:8118 https://check.torproject.org
 ```
 
